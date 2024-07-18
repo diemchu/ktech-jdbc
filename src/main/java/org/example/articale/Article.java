@@ -1,4 +1,4 @@
-package org.example;
+package org.example.articale;
 
 public class Article
 {
@@ -9,7 +9,10 @@ public class Article
     public Article(){}
 
     //개시글 추가할 때
-    public Article(String title,String content){}
+    public Article(String title,String content){
+        this.title = title;
+        this.content= content;
+    }
 
     //데이터 불러올 떄 쓸 생성자
     public Article(long id ,String title,String content){
@@ -27,5 +30,14 @@ public class Article
 
     public String getContent() {
         return content;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                '}';
     }
 }

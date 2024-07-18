@@ -1,7 +1,4 @@
-package org.example;
-
 import java.sql.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -45,7 +42,7 @@ public class Main {
 //                    VALUES ('%s','%s');
 //                    """;
 //            Scanner scanner = new Scanner(System.in);
-//            System.out.print("input username: ");
+////            System.out.print("input username: ");
 //            String username  = scanner.nextLine();
 //            System.out.print("input user password: ");
 //            String password = scanner.nextLine();
