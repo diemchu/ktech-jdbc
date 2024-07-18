@@ -1,8 +1,4 @@
-<<<<<<<< Updated upstream:src/main/java/org/example/articale/Article.java
 package org.example.articale;
-========
-package org.example.article;
->>>>>>>> Stashed changes:src/main/java/org/example/article/Article.java
 
 public class Article
 {
@@ -15,11 +11,8 @@ public class Article
     //개시글 추가할 때
     public Article(String title,String content){
         this.title = title;
-<<<<<<<< Updated upstream:src/main/java/org/example/articale/Article.java
         this.content= content;
-========
         this.content = content;
->>>>>>>> Stashed changes:src/main/java/org/example/article/Article.java
     }
 
     //데이터 불러올 떄 쓸 생성자
